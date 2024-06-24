@@ -11,14 +11,13 @@ client = Amplitude(api_key=settings.amplitude_api_key)
 
 
 #
-def callback_fun(e, code, message):
-    """A callback function"""
-    print(e)
-    print(code, message)
-
-
-client.configuration.callback = callback_fun
-
+# def callback_fun(e, code, message):
+#     """A callback function"""
+#     print(e)
+#     print(code, message)
+#
+#
+# client.configuration.callback = callback_fun
 
 
 def send_amplitude_event(user_id: str, event_type: str, event_properties: dict):
