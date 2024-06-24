@@ -1,0 +1,7 @@
+aiogram~=3.8.0
+pydantic
+python-dotenv~=1.0.1
+openai~=1.35.3
+pydantic-settings
+requests~=2.32.3
+amplitude-analytics
